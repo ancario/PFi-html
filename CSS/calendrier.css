@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop One');
+@import url('https://fonts.googleapis.com/css?family=Castoro');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.calandrier{
+    display:  flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+ 
+    flex-wrap:  wrap;
+    
+  
+}
+.daysOfWeek,.daysContainer{
+    display: grid;
+    text-align: right;
+    font-weight: 1000px;
+    grid-template-columns: repeat(7,1fr);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.daysOfWeek>div{
+padding:30 px; size: 50%;
+}
+.title{
+  text-align: center;
+  color: bisque;
+  font-family: fantasy;
+}
+.month{
+    border-radius: 10px;
+    border: solid black 1px;
+}
+.contour{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-image:url(../images/fontbleu.png);
+    background-repeat: no-repeat ;
+    background-size:  cover;
+   
+}
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .monthTitle{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  .holiday{
+    color:  greenyellow;
+  }
+
+
+
+  
